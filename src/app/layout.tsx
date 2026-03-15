@@ -4,7 +4,7 @@ import React from "react"
 
 export const metadata: Metadata = {
     title: 'Portfolio - Junior Developer',
-    description: 'Portfolio de desarrollador junior especializado en React, Next.js y tecnologías web modernas',
+    description: 'Portfolio de desarrollador junior especializado en aplicaciones multiplataforma',
 }
 
 export default function RootLayout({

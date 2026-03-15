@@ -57,13 +57,13 @@ const AboutMe = () => {
                         viewport={{ once: true }}
                     >
                         <motion.p variants={itemVariants} className="text-lg text-gray-300 mb-6 leading-relaxed">
-                            Soy un desarrollador junior apasionado por la tecnología y el diseño. Mi journey comenzó
+                            Soy un desarrollador junior apasionado por la tecnología y el diseño. Mi camino comenzó
                             hace 2 años cuando descubrí el mundo del desarrollo web y quedé fascinado por la posibilidad
                             de crear experiencias digitales únicas.
                         </motion.p>
 
                         <motion.p variants={itemVariants} className="text-lg text-gray-300 mb-6 leading-relaxed">
-                            Me especializo en tecnologías frontend modernas como React, Next.js y TypeScript,
+                            Me especializo en tecnologías frontend y backend modernas como React y SpringBoot,
                             siempre buscando escribir código limpio, eficiente y mantenible. Me encanta aprender
                             nuevas tecnologías y enfrentar desafíos que me permitan crecer profesionalmente.
                         </motion.p>

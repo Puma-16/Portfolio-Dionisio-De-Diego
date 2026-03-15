@@ -73,7 +73,7 @@ const Hero = () => {
                     <motion.div variants={itemVariants}>
                         <span className="text-primary font-medium text-lg">Hola, soy</span>
                         <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-white via-white to-primary bg-clip-text text-transparent">
-                            Tu Nombre
+                            Dionisio de Diego Sepúlveda
                         </h1>
                         <h2 className="text-2xl md:text-3xl text-gray-300 mb-6">
                             Junior Developer
@@ -85,7 +85,7 @@ const Hero = () => {
                         variants={itemVariants}
                     >
                         Desarrollador apasionado por crear experiencias web modernas y funcionales.
-                        Especializado en React, Next.js y tecnologías frontend de vanguardia.
+                        Especializado en java y tecnologías frontend de vanguardia.
                     </motion.p>
 
                     <motion.div
@@ -93,7 +93,7 @@ const Hero = () => {
                         variants={itemVariants}
                     >
                         <motion.a
-                            href="/cv.pdf"
+                            href="/CVDionisioDeDiego.pdf"
                             download
                             className="glass-orange px-6 py-3 rounded-lg font-medium flex items-center gap-2 hover:bg-primary/20 transition-all group"
                             whileHover={{ scale: 1.05 }}
@@ -104,7 +104,7 @@ const Hero = () => {
                         </motion.a>
 
                         <motion.a
-                            href="https://github.com/tu-usuario"
+                            href="https://github.com/Puma-16"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="glass px-6 py-3 rounded-lg font-medium flex items-center gap-2 hover:bg-white/20 transition-all"
@@ -116,7 +116,7 @@ const Hero = () => {
                         </motion.a>
 
                         <motion.a
-                            href="https://linkedin.com/in/tu-perfil"
+                            href="https://www.linkedin.com/in/dionisio-de-diego-sepúlveda-6643aa352"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="glass px-6 py-3 rounded-lg font-medium flex items-center gap-2 hover:bg-white/20 transition-all"

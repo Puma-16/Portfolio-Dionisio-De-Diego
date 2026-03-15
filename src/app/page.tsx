@@ -7,7 +7,7 @@ import AboutMe from '@/components/aboutMe'
 import Skills from '@/components/skills'
 import Experience from '@/components/experience'
 import Projects from '@/components/projects'
-//import Certifications from '@/components/certifications'
+import Certifications from '@/components/certifications'
 import Footer from '@/components/footer'
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
             <Skills />
             <Experience />
             <Projects />
-
+            <Certifications />
             <Footer />
         </main>
     )

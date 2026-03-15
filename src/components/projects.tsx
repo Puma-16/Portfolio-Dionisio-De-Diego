@@ -196,7 +196,7 @@ const Projects = () => {
                     transition={{ duration: 0.6, delay: 0.8 }}
                 >
                     <motion.a
-                        href="https://github.com/tu-usuario"
+                        href="https://github.com/Puma-16"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 glass-orange px-8 py-3 rounded-lg font-medium hover:bg-primary/20 transition-all"

@@ -15,19 +15,19 @@ const Footer = () => {
         {
             name: 'GitHub',
             icon: Github,
-            url: 'https://github.com/tu-usuario',
+            url: 'https://github.com/Puma-16',
             color: 'hover:text-gray-300'
         },
         {
             name: 'LinkedIn',
             icon: Linkedin,
-            url: 'https://linkedin.com/in/tu-perfil',
+            url: 'https://www.linkedin.com/in/dionisio-de-diego-sepúlveda-6643aa352',
             color: 'hover:text-blue-400'
         },
         {
             name: 'Email',
             icon: Mail,
-            url: 'mailto:tu-email@ejemplo.com',
+            url: 'dionisiodediegosepulveda@gmail.com',
             color: 'hover:text-primary'
         }
     ]
@@ -103,9 +103,7 @@ const Footer = () => {
                     transition={{ duration: 0.6, delay: 0.6 }}
                 >
                     <p className="text-gray-400 text-sm flex items-center justify-center gap-1">
-                        © {currentYear} Tu Nombre. Hecho con
-                        <Heart className="w-4 h-4 text-red-500 animate-pulse" />
-                        y mucho café.
+                        © {currentYear} Dionisio de Diego Sepúlveda.
                     </p>
                 </motion.div>
             </div>
