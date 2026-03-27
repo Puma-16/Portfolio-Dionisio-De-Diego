@@ -1,6 +1,22 @@
 import type { Metadata } from 'next'
+import { Audiowide, Geo } from 'next/font/google'
 import './globals.css'
-import React from "react"
+import React from 'react'
+
+const audiowide = Audiowide({
+    weight: '400',
+    subsets: ['latin'],
+    variable: '--font-audiowide',
+    display: 'swap',
+})
+
+const geo = Geo({
+    weight: ['400'],
+    style: ['normal', 'italic'],
+    subsets: ['latin'],
+    variable: '--font-geo',
+    display: 'swap',
+})
 
 export const metadata: Metadata = {
     title: 'Portfolio - Junior Developer',
@@ -13,8 +29,8 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="es">
-            <body>{children}</body>
+        <html lang="es" className={`${audiowide.variable} ${geo.variable}`}>
+        <body>{children}</body>
         </html>
     )
 }

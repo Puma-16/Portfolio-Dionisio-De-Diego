@@ -1,6 +1,7 @@
 'use client'
 
 import React from "react"
+import StarField from '@/components/StarField'
 import Navbar from '@/components/navbar'
 import Hero from '@/components/hero'
 import AboutMe from '@/components/aboutMe'
@@ -14,13 +15,16 @@ export default function Home() {
     return (
         <main className="min-h-screen bg-black">
             <Navbar />
-            <Hero />
-            <AboutMe />
-            <Skills />
-            <Experience />
-            <Projects />
-            <Certifications />
-            <Footer />
+            <div className="lg:pr-[96px]">
+                <StarField />
+                <Hero />
+                <AboutMe />
+                <Skills />
+                <Experience />
+                <Projects />
+                <Certifications />
+                <Footer />
+            </div>
         </main>
     )
 }
