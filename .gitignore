@@ -9,3 +9,17 @@ yarn-error.log*
 .pnp.js
 
 .vscode/*
+
+# Dependencias
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Logs y caché de compilación
+build/
+dist/
+.DS_Store
+*.log
+.env*
