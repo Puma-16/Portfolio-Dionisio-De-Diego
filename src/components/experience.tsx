@@ -7,40 +7,13 @@ import React from "react"
 const Experience = () => {
     const experiences = [
         {
-            title: 'Freelance Developer',
-            company: 'Independiente',
+            title: 'Desarrollador Web Junior',
+            company: '3XA',
             location: 'Remoto',
-            period: '2023 - Presente',
-            description: 'Desarrollo de aplicaciones web personalizadas usando React, Next.js y TypeScript. Colaboración con clientes para crear soluciones digitales innovadoras.',
-            technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-            type: 'freelance'
-        },
-        {
-            title: 'Frontend Developer Intern',
-            company: 'TechStartup Inc.',
-            location: 'Madrid, España',
-            period: '2023 (6 meses)',
-            description: 'Participé en el desarrollo de una plataforma SaaS, implementando interfaces de usuario responsivas y optimizando la experiencia del usuario.',
-            technologies: ['React', 'JavaScript', 'Sass', 'Git', 'Figma'],
-            type: 'internship'
-        },
-        {
-            title: 'Proyecto Personal',
-            company: 'E-commerce Platform',
-            location: 'Proyecto Personal',
-            period: '2022 - 2023',
-            description: 'Desarrollé una plataforma de e-commerce completa con carrito de compras, pasarela de pago y panel de administración.',
-            technologies: ['React', 'Node.js', 'MongoDB', 'Stripe API', 'Express'],
-            type: 'project'
-        },
-        {
-            title: 'Bootcamp Graduate',
-            company: 'Web Development Bootcamp',
-            location: 'Online',
-            period: '2022',
-            description: 'Completé un bootcamp intensivo de 6 meses enfocado en desarrollo web full-stack, aprendiendo las tecnologías más demandadas del mercado.',
-            technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'SQL'],
-            type: 'education'
+            period: '2026 - Presente',
+            description: 'Desarrollo de aplicaciones web personalizadas usando PHP , python e herramientad de IA.',
+            technologies: ['PHP', 'Python','HTML','CSS','JavaScript','Claude code'],
+            type: 'practicas'
         }
     ]
 
@@ -89,7 +62,7 @@ const Experience = () => {
                     </h2>
                     <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
                     <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                        Mi journey como desarrollador: desde los primeros pasos hasta proyectos más complejos
+                        Mi experiencia en el sector laboral
                     </p>
                 </motion.div>
 
